@@ -1,0 +1,21 @@
+.cart-layout {
+  padding: 5%;
+}
+
+.cart-layout .cart {
+  margin-bottom: 1rem;
+  /* Additional styling */
+  border-bottom: 1px solid #ddd; /* Light border for visual separation */
+  padding-bottom: 1rem; /* Extra padding for spacing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cart-layout {
+    padding: 2%;
+  }
+
+  .cart-layout .cart {
+    margin-bottom: 0.5rem; /* Reduced margin for smaller screens */
+  }
+}

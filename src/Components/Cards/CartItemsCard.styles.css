@@ -1,0 +1,64 @@
+/* .cart-container {
+  display: flex;
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.cart-img-container {
+  width: 6rem;
+}
+.cart-items {
+  padding-left: 2rem;
+  padding-top: 10px;
+}
+.cart-item-price {
+  padding-top: 1rem;
+  color: rgb(255, 145, 0);
+} */
+.cart-container {
+  display: flex;
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem; /* Space between items */
+  align-items: center; /* Vertically center items */
+  background-color: #f9f9f9; /* Light background color
+} */
+
+.cart-img-container {
+  width: 6rem;
+  height: 9rem; /* Set height to maintain aspect ratio */
+  overflow: hidden; /* Ensure image does not overflow */
+}
+
+.cart-img-container img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+}
+
+.cart-items {
+  padding-left: 2rem;
+  padding-top: 10px;
+}
+
+.cart-item-price {
+  padding-top: 1rem;
+  color: rgb(255, 145, 0);
+  font-weight: bold; /* Emphasize price */
+}
+
+.remove-btn button {
+  background-color: #ff4d4d; /* Red background for remove button */
+  color: white; /* White text */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer; /* Indicate that it's clickable */
+}
+
+.remove-btn button:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
+
